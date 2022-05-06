@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Voter's Service Portal</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <header>
+        <nav class="mynavbar">
+            <a href="index.html"><img src="images/flag.png" alt="Loading Image" class="mainlogo" /></a>
+            <ul class="mynavlist">
+                <li class="mynav-item" id="item1">
+                    <div class="a">
+                    <h1>&nbsp;&nbsp;&nbsp;राष्ट्रीय मतदान सेवा &nbsp;&nbsp;डेमो पोर्टल</h1>
+                    </div>
+                </li>
+                <li class="mynav-item" id="item2">
+                    <div class="b">
+                    <h1>&nbsp;&nbsp;&nbsp;&nbsp;NATIONAL VOTERS' SERVICES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEMO&nbsp;PORTAL</h1>
+                    </div>
+                </li>
+                <li class="mynav-item" id="item3">
+                    <a href=""><img src="images/vote.png" alt="Loading Image" class="mainlogo" />
+                    </a>       
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+<div class="font-setting">
+    <button class="btn btn-primary">A+</button>
+    <button class="btn btn-primary">A-</button>
+    <span class="language" id="lan">Select Language :</span>
+    <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="btn"><option>Hindi</option><option>English</option></select>
+</div>
+
+<h3>Note: Fields marked with asterisks (<b style="color:rgb(255, 8, 8)"> * </b>) are mandatory</h3>
+
+<div class="container">
+    <form action="" class="form1">
+        <div class="formheading">
+            Type 6 <br> [See rule 13(1) and 26]
+        </div>
+            <div class="description">
+                Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency
+            </div>
+        <br>
+        <br>
+        In service 
+        <br>
+        <br>
+        Electoral Registration Officer, 
+        <br>
+        <br>
+        <span class="language">State </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Select</option>
+        </select>
+        <span class="language">District </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="district">
+            <option selected>Select</option>
+        </select>
+        <br>
+        <br>
+        <span class="language">Legislative Assembly / Parlimentary  </span>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="legislative">
+            <option selected>Select</option>
+        </select>
+        <br>
+        <span class="language">constituency  </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <br>
+        <br>
+        I request that my name be included in electoral rolls for all the aforesaid areas. 
+        <br>
+        <br>
+        <div id="first">
+        <input type="radio" id="age" name="" value="">
+          <label for="age1">First time voter</label><br>
+          <input type="radio" id="age" name="" value="">
+          <label for="age2">Due to transfer from other meeting areas.</label><br>
+        </div>
+        <br>
+        <br>
+        <br>
+        Below are specifications in support of my claim to be included in the electoral rolls. 
+        <br>
+        <br>
+        <div class="description">
+            Mandatory specifications
+        </div>
+        <br>
+        <br>
+
+        <!-- Name -->
+
+        <span class="language">(A) Name </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+        <br>
+        <br>
+
+        <!-- Surname -->
+
+        <span class="language">(B) Surname (if any) </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+
+        <br>
+        <br>
+
+        <!-- Name of the applicant's relative -->
+
+        <span class="language">(C) Name of the applicant's relative</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+
+        <br>
+        <br>
+
+        <!-- Nickname of the applicant's relative -->
+
+        <span class="language">Nickname of the applicant's relative</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+
+        <br>
+        <br>
+
+        <!-- Type of the relationship -->
+
+        <span class="language">(D) Type of the relationship</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Select</option>
+        </select>
+
+        <br>
+        <br>
+
+        <!-- Age  -->
+
+        <!-- <span class="language">
+            <input type="radio" name="" id="" > (E) Age [on January 1 of the current calender]
+        </span> -->
+        <input type="radio" id="html" name="fav_language" value="HTML"> (E) Age [on January 1 of the current calender]
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;2022" class="change" required>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Year</option>
+        </select>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Month</option>
+        </select>
+        <br>
+        <br>
+        <span class="language">
+            Or
+        </span>
+
+        <br>
+        <br>
+
+        <!-- DOB  -->
+
+        <!-- <span class="language">
+            <input type="radio" name="" id="" >(F) Date of birth (in the form of day/ month/ year) 
+        </span> -->
+        <input type="radio" id="html" name="fav_language" value="HTML"> (F) Date of birth (in the form of day/ month/ year)
+        <input type="date">
+        <br>
+        <span class="language">
+            (if known) 
+        </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Gender  -->
+
+        <span class="language">(G) Applicant's gender</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Select</option>
+            <option >Male</option>
+            <option >Female</option>
+        </select>
+        <br>
+        <br>
+        <div class="description">
+            (H) Current address, whose applicant is nominally resident
+        </div>
+        <br>
+        <br>
+
+        <!-- House no. -->
+
+        <span class="language">House no.</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+        <br>
+        <br>
+
+        <!-- Street / area / location -->
+
+        <span class="language">Street / area / location</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+        <br>
+        <br>
+
+        <!-- City / Village: -->
+
+        <span class="language">City / Village:</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+        <br>
+        <br>
+
+        <!-- Post Office: -->
+
+        <span class="language">Post Office:</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In English)" required>
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(In Regional)" required>
+        <button class="save-surname">
+           <!-- <i class="far fa-keyboard"></i> -->
+           <img src="images/keyboard.jpeg" alt="" id="key">
+        </button>
+        <br>
+        <br>
+
+        <!--  Pin Code -->
+
+        <span class="language">Pin Code</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" required>
+        <br>
+        <br>
+
+        <!-- State / Union Territory -->
+
+        <span class="language">State / Union Territory</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Select</option>
+        </select>
+        <br>
+        <br>
+        
+        <!-- District -->
+
+        <span class="language">District</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Select</option>
+        </select>
+        <br>
+        <br>
+        <p></p>
+        <br>
+
+        <!--  Family / Neighbour Epic No.  -->
+
+        <span class="language">Family / Neighbour Epic No. </span>
+        <input type="text" required>
+        <br>
+        <br>
+        <p></p>
+        <br>
+        <br>
+        <div class="description">
+            Optional specialties
+        </div>
+        <br>
+        <br>
+
+        <!-- Disability -->
+
+        <span class="language">(T) Disability (if any) </span>
+        <br>
+        <br>
+        <span class="language">
+            <input type="checkbox" name="" id="checkbox1" > Visual impairment
+        </span>
+        <span class="language">
+            <input type="checkbox" name="" id="z" > Speech and hearing impairment
+        </span>
+        <span class="language">
+            <input type="checkbox" name="" id="z" > Motion disablingt 
+        </span>
+        <span class="language">
+            <input type="checkbox" name="" id="z" > other 
+        </span>
+        <input type="text" required id="q">
+        <br>
+        <br>
+        <span class="language">(Th) Email ID (optional) </span>
+        <input type="text" required>
+        <br>
+        <br>
+        <span class="language">(D) mobile number (optional)&nbsp; </span>
+        +91 <input type="text" required>
+        <br>
+        <br>
+        <div class="description">
+            Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB) <a href="" id="k">List of supported documents</a>
+        </div>
+        <br>
+        <br>
+
+        <span class="language"> Your photo</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup><br>
+        <input type="file" class="upload">
+      <br>
+        <span class="language"> Age proof</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup><br>
+        <input type="file" class="upload">
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Document type<sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="document">
+            <option selected>Select</option>
+        </select>
+        <!-- <input type="file" class="upload"> <br> -->
+        <br>
+        <span class="language"> Address proof</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup><br>
+        <input type="file" class="upload">
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Document type<sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="document">
+            <option selected>Select</option>
+        </select>
+        <!-- <input type="file" class="upload">  -->
+        <br>
+        <br>
+        <div class="description">
+            Declaration
+        </div>
+        <br>
+        <br>
+        I declare that according to my best knowledge and belief
+        <br>
+        I am a citizen of India and of my birth;
+        <br>
+        <span class="language">City / Village:&nbsp;</span>
+        <input type="text" required>
+        <br>
+        <br>
+        <span class="language">State </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="state">
+            <option selected>Select</option>
+        </select>
+        <span class="language">District </span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <select class="btn btn-secondary btn-sm dropdown-toggle" name="" id="district">
+            <option selected>Select</option>
+        </select>
+        <br>
+        <br>
+        <span class="language">Date</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="date">
+        <br>
+        (ii) I am a nominally resident in the address given in the above (date, month, year) above;
+        <br>
+        <br>
+        I have not applied to include my name in the electoral roll for any other constituency;
+        <br>
+        <br>
+
+        <!-- declaration  -->
+        <!-- <span class="language">
+            <input type="radio" name="" id="my" > (iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency
+        </span>
+        <br>
+        <br>
+        <span class="language"> -->
+            <input type="radio" id="html" name="fav_language" value="HTML"> (iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency
+            <br>
+            <br>
+           <div id="or">Or</div>
+            <br>
+            <!-- <br> -->
+        <!-- </span>
+
+        <br>
+        <br>
+        declaration 
+        <span class="language">
+            <input type="radio" name="" id="my" > My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go. 
+        </span> -->
+        <input type="radio" id="html" name="fav_language" value="HTML"> My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go. 
+        <br>
+        <br>
+        <br>
+        <p></p>
+        <br>
+        <br>
+        <br>
+        <span class="language">Location</span>
+        <sup style="color:rgb(255, 8, 8)">*</sup>
+        <input type="text" required>
+        <span class="language">Date&nbsp;</span>
+        <input type="date">
+        <br>
+        <br>
+        I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31
+        <br>
+        <br>
+        <span class="language">Captcha</span>
+        <img src="images/captcha.png" alt="" id="png">
+        <img src="images/return.png" alt="" id="return">
+        
+        <!-- <i class="fas fa-redo"></i> -->
+        
+        <!-- <i style='font-size:24px' class='fas'>&#xf2f9;</i> -->
+        <!-- <i class='fas fa-redo-alt'></i> -->
+        <input type="text" required>
+        <br>
+        <br>
+        <!-- <div class="buttons">
+            <input type="reset" class="btn" value="Reset" id="reset">
+            <input type="submit" class="btn" value="Submit" id="submit">
+        </div> -->
+        <div class="abhi">
+            <button class="shru" id="reset">Reset</button>
+            <button class="shru" id="submit">Submit</button>
+        </div>
+    </form>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    Copyright © 2022  @AbhishekMeshram
+</footer>
+
+<!-- End Footer -->
+</body>
+</html>
